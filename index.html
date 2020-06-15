@@ -133,6 +133,7 @@
     <header>
       <div class="container">
         <img src="duualves_dark.svg" class="logo" />
+
       </div>
     </header>
     <div class="container">
@@ -201,13 +202,26 @@
       </div>
     </div>
 <script>
+    //definir header
+let fonts = ["serif","sans-serif"];
+let font = fonts[Math.floor(Math.random() * fonts.length)];
+    if(font == "serif"){
+        
+let titles = document.querySelectorAll("h1");
+    titles.forEach(function(title) {
+    title.style.fontFamily = font;
+});
+    
+    }else{
+    
 let colors = ["#2039CC","#F5C342","#17736A0","#F28D35","#F25D27","#84B6BD","#DAB5BC"];
 let color = colors[Math.floor(Math.random() * colors.length)];
-    let itens = document.querySelectorAll(".divider");
-    console.log(itens);
+let itens = document.querySelectorAll(".divider");
     itens.forEach(function(item) {
     item.style.borderColor = color;
 });
+    
+        }
 </script>  
   </body>
 </html>
