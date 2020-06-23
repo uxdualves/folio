@@ -1,0 +1,29 @@
+{
+"nome": "Diego Alves do Carmo",
+"data": "06/09/1995",
+"genero": "Masculino",
+"local": "São Paulo - SP",
+"nacionalidade": "Brasileiro",
+"info": {
+"title": "INFO",
+"nome_key": "Nome",
+"nome_val": "Diego Alves do Carmo",
+"data_key": "Data de Nascimento",
+"data_val": "Diego Alves do Carmo",
+"gene_key": "Genêro",
+"gene_val": "Masculino",
+"local_key": "Localidade",
+"local_val": "São Paulo - SP",
+"nacio_key": "Nacionalidade",
+"nacio_val": "Brasileiro",
+},
+"cargos": [
+"UX/UI Designer",
+"Front-End Developer",
+"Automation Developer",
+"Fullstack Developer",
+"Back-End Developer",
+"Team Leader",
+"Scrum Master"
+]
+}
